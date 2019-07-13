@@ -1,0 +1,213 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Muli", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    overflow: auto;
+    background-image: url(../images/header-bg-2.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.navigation {
+    width: 100%;
+    margin: 0;
+    background-color: #003073;
+}
+
+.navbar {
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+}
+
+.navbar ul {
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.navbar a:hover {
+    color: #6a5bdc;
+}
+
+.headbtn {
+    padding-left: 20px;
+}
+
+.freebtn {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    border-style: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: #6a5bdc;
+}
+
+.freebtn:hover {
+    background-color: #fff;
+    color: #6a5bdc;
+    transition-duration: 0.6s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+.content-center {
+    width: 91%;
+    margin: auto;
+    overflow: auto;
+}
+
+.content-left {
+    width: 70%;
+    margin: 0;
+    float: left;
+    padding: 100px 0px;
+}
+
+.content-left p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.content-left h1 {
+    width: 71%;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 67px;
+    margin: 0;
+    padding: 28px 0px;
+}
+
+.secp {
+    width: 66%;
+    margin: 0;
+}
+
+.content-right {
+    width: 30%;
+    float: left;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.appstore {
+    width: 27%;
+    background-color: #22233c;
+    float: left;
+    border-radius: 50px;
+    padding: 12px 0px;
+    margin: 60px 20px 0px 0px;
+}
+
+.appstore:hover {
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+    background-color: #00c4fb;
+}
+
+.apple {
+    padding-left: 30px;
+}
+
+.appstore small,
+strong {
+    color: #fff;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.section2 {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 50px 0px;
+}
+
+.samehead {
+   padding: 10px 0px 40px 0px;
+}
+
+.samehead h3 {
+    color: #22233b;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.services {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.part-services {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.single-services {
+    height: 200px;
+    width: 100%;
+    margin: 0;
+}
+
+.services-doc h3 {
+    color: #22233b;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 33px;
+    margin: 0;
+}
+
+.services-doc p {
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin: 0;
+    padding:12px 40px 12px 0px;
+}
