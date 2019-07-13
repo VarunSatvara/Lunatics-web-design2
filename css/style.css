@@ -216,6 +216,7 @@ strong {
     width: 100%;
     margin: 0;
     overflow: auto;
+    padding: 60px 0px;
 }
 
 .mobile-desc {
@@ -291,4 +292,59 @@ strong {
     margin: 0;
     line-height: 50px;
     text-align: center;
+}
+
+.mobilepng {
+    height: 700px;
+    width: 100%;
+    margin: 0;
+}
+
+.section4 {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.video-image {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.video-play {
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/video-img.jpg);
+    background-size: cover;
+    border-radius: 6px;
+    position: relative;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 50px -10px #6858db;
+    background-color: #fff;
+    text-align: center;
+    font-size: 55px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.player {
+    color: #6858db;
+    padding: 25px 0px;
+}
+.icon:hover {
+    background-color: #6858db;
+}
+.player:hover {
+    color: #fff;
 }
