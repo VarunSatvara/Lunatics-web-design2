@@ -506,8 +506,12 @@ strong {
 }
 
 .doc ul li {
-    list-style: none;
+    color: #56576e;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
     margin: 0;
+    list-style: none;
     padding: 10px 0px;
 }
 
