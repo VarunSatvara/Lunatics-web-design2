@@ -389,7 +389,6 @@ strong {
     color: #22233b;
     font-size: 22px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding: 25px 0px;
@@ -445,9 +444,117 @@ strong {
     margin: auto;
     padding: 10px 0px;
 }
-.arrow1{
-    margin:0px 8px;
+
+.arrow1 {
+    margin: 0px 8px;
 }
+
+.card-box {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+.card-part {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.card-gap {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.card {
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 0px 10px 0px;
+    border-radius: 6px;
+
+}
+
+.cone {
+    height: 500px;
+}
+
+.ctwo {
+    height: 530px;
+}
+
+.cthree {
+    height: 560px;
+}
+
+.card:hover {
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(5px);
+}
+
+.doc {
+    text-align: center;
+}
+
+.doc ul {
+    padding: 0px;
+}
+
+.doc ul li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.doc h4 {
+    color: #22233b;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 15px 0px 0px 0px;
+}
+
+.doc h3 {
+    color: #6858db;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.startbutton {
+    padding: 30px 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.stratbtn {
+    color: #6858db;
+    font-size: 16px;
+    font-weight: 550;
+    border: 1px solid #6858db;
+    padding: 14px 30px;
+    background-color: transparent;
+    border-radius: 100px;
+    margin: 0;
+}
+
+.stratbtn:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    color: #fff;
+    background-color: #6858db;
+}
+
 .sectionseven {
     width: 100%;
     margin: 0;
@@ -499,7 +606,6 @@ strong {
     color: #22233b;
     font-size: 18px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding-top: 15px;
@@ -509,7 +615,6 @@ strong {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding: 10px;
@@ -537,7 +642,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     line-height: 25px;
@@ -578,7 +682,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding: 10px 0px;
@@ -588,7 +691,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding: 10px 0px;
@@ -617,7 +719,6 @@ h3 {
     color: #22233b;
     font-size: 36px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
 
@@ -628,7 +729,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding-left: 22px;
@@ -651,7 +751,6 @@ h3 {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     line-height: 20px;
@@ -747,7 +846,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding: 15px 10px;
@@ -761,7 +859,6 @@ h3 {
     color: #56576e;
     font-size: 12px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding: 0px 10px;
@@ -870,7 +967,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     text-align: left;
@@ -881,7 +977,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     text-align: left;
@@ -934,7 +1029,6 @@ h3 {
     color: #22233b;
     font-size: 18px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     text-align: left;
@@ -944,7 +1038,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     text-decoration-line: none;
     margin: 0;
@@ -965,7 +1058,6 @@ h3 {
     color: #56576e;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     text-decoration-line: none;
 }
@@ -991,7 +1083,6 @@ h3 {
     color: #22233b;
     font-size: 16px;
     font-weight: 700;
-    font-family: "Muli", sans-serif;
     letter-spacing: normal;
     margin: 0;
     padding-left: 5px;
